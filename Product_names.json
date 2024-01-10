@@ -1,0 +1,12 @@
+{
+    "transformations": [
+        {"full_name": "filet z kurczaka", "short_name": "filet", "cursor_shifts": 9},
+        {"full_name": "kulka", "short_name": "szynka", "cursor_shifts": 1},
+        {"full_name": "łopatka", "short_name": "łopatka", "cursor_shifts": 4},
+        {"full_name": "kurczak", "short_name": "tuszka", "cursor_shifts": 3},
+        {"full_name": "tuszka z kurczaka", "short_name": "tuszka", "cursor_shifts": 3},
+        {"full_name": "filet z indyka", "short_name": "indyka", "cursor_shifts": 1},
+        {"full_name": "udko z kurczaka", "short_name": "udko", "cursor_shifts": 3}
+        
+    ]
+}

@@ -3,6 +3,40 @@ from datetime import datetime
 import openpyxl
 from tkinter import Tk , filedialog 
 
+
+class ExcelFile:
+    def __init__(self, file_path):
+        self.file_path = file_path
+
+class FileManager:
+    def __init__(self):
+        self.excel_files = []
+
+    def choose_files(self):
+        root = Tk()  # Utwórz instancję klasy Tk
+        root.withdraw()  # Ukryj główne okno tkinter
+        file_paths = filedialog.askopenfilenames(title="Wybierz pliki Excel")
+        root.destroy()  # Zniszcz instancję klasy Tk po użyciu
+        if file_paths:
+            self.excel_files = [ExcelFile(file_path) for file_path in file_paths]
+            self.print_file_paths()
+
+    def print_file_paths(self):
+        for excel_file in self.excel_files:
+            print(f"Plik: {excel_file.file_path}")
+
+    def get_file_paths(self):
+        return [excel_file.file_path for excel_file in self.excel_files]
+
+
+
+
+
+# if __name__ == "__main__":
+#     file_manager = FileManager()
+#     file_manager.choose_files()
+
+        
 # class ExcelFile:
 #     def __init__(self, file_path):
 #         self.file_path = file_path
@@ -40,33 +74,6 @@ from tkinter import Tk , filedialog
 #         filtered_files = [excel_file.file_path for excel_file in self.excel_files if excel_file.miesiac == month]
 #         return filtered_files
 # from tkinter import filedialog, Tk
-
-class ExcelFile:
-    def __init__(self, file_path):
-        self.file_path = file_path
-
-class FileManager:
-    def __init__(self):
-        self.excel_files = []
-
-    def choose_files(self):
-        root = Tk()  # Utwórz instancję klasy Tk
-        root.withdraw()  # Ukryj główne okno tkinter
-        file_paths = filedialog.askopenfilenames(title="Wybierz pliki Excel")
-        root.destroy()  # Zniszcz instancję klasy Tk po użyciu
-        if file_paths:
-            self.excel_files = [ExcelFile(file_path) for file_path in file_paths]
-            self.print_file_paths()
-
-    def print_file_paths(self):
-        for excel_file in self.excel_files:
-            print(f"Plik: {excel_file.file_path}")
-
-if __name__ == "__main__":
-    file_manager = FileManager()
-    file_manager.choose_files()
-
-        
 
 
     # Przykład użycia: Pobierz file_path dla plików z wybranego miesiąca (np. miesiąc = 5)
