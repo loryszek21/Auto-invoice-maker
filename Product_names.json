@@ -1,12 +1,42 @@
 {
     "transformations": [
+        {"full_name": "pałki z kurczaka", "short_name": "pał", "cursor_shifts": 0},
         {"full_name": "filet z kurczaka", "short_name": "filet", "cursor_shifts": 9},
         {"full_name": "kulka", "short_name": "szynka", "cursor_shifts": 1},
         {"full_name": "łopatka", "short_name": "łopatka", "cursor_shifts": 4},
+        {"full_name": "szynka bk", "short_name": "szynka", "cursor_shifts": 1},
+        {"full_name": "szynka b/k", "short_name": "szynka", "cursor_shifts": 1},
+        {"full_name": "szynka b/k mielona", "short_name": "szynka", "cursor_shifts": 1},
+        {"full_name": "szynka mielona", "short_name": "szynka", "cursor_shifts": 1},
+        {"full_name": "schab b/k", "short_name": "schab", "cursor_shifts": 2},
+        {"full_name": "schab", "short_name": "schab", "cursor_shifts": 2},
+        {"full_name": "szynka", "short_name": "szynka", "cursor_shifts": 1},
+        {"full_name": "łopatka bk", "short_name": "łopatka", "cursor_shifts": 4},
+        {"full_name": "łopatka b/k", "short_name": "łopatka", "cursor_shifts": 4},
         {"full_name": "kurczak", "short_name": "tuszka", "cursor_shifts": 3},
         {"full_name": "tuszka z kurczaka", "short_name": "tuszka", "cursor_shifts": 3},
         {"full_name": "filet z indyka", "short_name": "indyka", "cursor_shifts": 1},
+        {"full_name": "ćwiartka z kurczaka", "short_name": "ćwiartka", "cursor_shifts": 1},
+        {"full_name": "szynka z indyka", "short_name": "indyka", "cursor_shifts": 9},
+        {"full_name": "karkówka", "short_name": "karkówka", "cursor_shifts": 2},
+        {"full_name": "karkówka b/k", "short_name": "karkówka", "cursor_shifts": 2},
+        {"full_name": "pałka z kurczaka", "short_name": "pał", "cursor_shifts": 0},
+        {"full_name": "wołowina bk", "short_name": "wołowina", "cursor_shifts": 0},
+        {"full_name": "kiełbasa śląska", "short_name": "śląs", "cursor_shifts": 0},
+        {"full_name": "boczek parzony", "short_name": "boczek", "cursor_shifts": 9},
+        {"full_name": "kosci", "short_name": "kosci", "cursor_shifts": 5},
+        {"full_name": "sopocka", "short_name": "sopocka", "cursor_shifts": 0},
+        {"full_name": "parówki z szynki", "short_name": "szynki", "cursor_shifts": 6},
+        {"full_name": "łopatka mielona", "short_name": "łopatka", "cursor_shifts": 4},
+        {"full_name": "szynkowa", "short_name": "szynkowa", "cursor_shifts": 6},
+        {"full_name": "polędwica wędzona", "short_name": "polędwica", "cursor_shifts": 9},
+        {"full_name": "podsuszana z indyka", "short_name": "podsuszana", "cursor_shifts": 2},
+        {"full_name": "polędwica drobiowa", "short_name": "polędwica", "cursor_shifts": 3},
+        {"full_name": "pasztet zapiekany", "short_name": "pasztet", "cursor_shifts": 6},
+        {"full_name": "śląska", "short_name": "śląs", "cursor_shifts": 0},
+        {"full_name": "żywiecka", "short_name": "żyw", "cursor_shifts": 0},
         {"full_name": "udko z kurczaka", "short_name": "udko", "cursor_shifts": 3}
+        
         
     ]
 }

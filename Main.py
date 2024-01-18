@@ -29,7 +29,7 @@ if __name__ == "__main__":
             sheet = workbook['Arkusz2']
 
             # Wczytaj transformacje z pliku JSON
-            with open('Product_names.json', 'r') as json_file:
+            with open('Product_names.json', 'r', encoding='utf-8') as json_file:
                 transformations = json.load(json_file)
 
             # Utwórz obiekt GetValueFromExcel i przekaz arkusz i transformacje
