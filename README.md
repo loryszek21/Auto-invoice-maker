@@ -1,4 +1,4 @@
-###Automatyzacja MikroSubiekt z użyciem Pythona
+### Automatyzacja MikroSubiekt z użyciem Pythona
 ##Opis
 Aplikacja została stworzona w celu automatyzacji procesu pobierania danych z arkuszy Excel oraz ich wprowadzania do systemu MikroSubiekt. Wykorzystuje bibliotekę PyAutoGui do symulacji interakcji z interfejsem użytkownika.
 
